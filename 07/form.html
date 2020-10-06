@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="page" id="page">
+        <div class="container">
+            <form id="loginForm">
+                <input type="email" placeholder="email" id="emailInput">
+                <input type="password" placeholder="password" id="passwordInput">
+                <button id="btn">Log In</button>
+
+            </form>
+           
+            <form id="registerForm" name="register" novalidate>
+                <input type="text" name="name" placeholder="Name" id="nameInput">
+                <input type="email" name="email" placeholder="Email" id="emailInput">
+                <input type="password" name="password" placeholder="Password" id="passwordInput">
+                <input type="password" name="repeatPassword" placeholder="Repeat password" id="repeatPasswordInput">
+                <button id='btn'>Sing Up</button>
+            </form>
+
+            <ul class="tab-group">
+                <li id="tab1"><a href="#signup">Sign Up</a></li>
+                <li id="tab2"><a href="#login">Log In</a></li>
+              </ul>
+
+
+        </div>
+    </div>
+
+
+    <script src="form.js"></script>
+</body>
+
+</html>
